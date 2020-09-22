@@ -1,9 +1,13 @@
 #include <iostream>
-
-
+using namespace std;
 int main()
 {
-
-	std::cout("---Start Applicaiton--\n");
-	return 0;
+    std::printf("-------BT Applicaiton starting------\n");
+    int count = 10;
+    for (int i = 0; i < count; i++)
+    {
+        printf("position is %d \n", i);
+    } 
+    std::printf("-------BT Applicaiton start successfully------\n"); 
+    return 0;
 }
